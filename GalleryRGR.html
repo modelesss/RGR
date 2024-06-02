@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Галерея</title>
+<style>
+    body {
+        background-color: #ccc; /* сірий фон */
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-box {
+        width: calc(20% - 20px); /* 20% ширина зазначена, 20px відступ */
+        margin: 10px;
+        background-color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 2px solid #000;
+    }
+    .image-box img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .text {
+        font-size: 14px;
+        color: #333;
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="image-box">
+        <img src="study1.jpg" alt="Зображення 1">
+        <div class="text">Улюбленець допомагає студенту з фізикою</div>
+    </div>
+    <div class="image-box">
+        <img src="study2.jpg" alt="Зображення 2">
+        <div class="text">Дистанційне навчання за кордоном</div>
+    </div>
+    <div class="image-box">
+        <img src="study3.jpg" alt="Зображення 3">
+        <div class="text">Пари на дистанційному навчанні</div>
+    </div>
+    <div class="image-box">
+        <img src="study4.jpg" alt="Зображення 4">
+        <div class="text">Підготовка до сесії</div>
+    </div>
+    <div class="image-box">
+        <img src="study5.jpg" alt="Зображення 5">
+        <div class="text">Типовий конспект</div>
+    </div>
+    <div class="image-box">
+        <img src="study6.jpg" alt="Зображення 6">
+        <div class="text">Співпраця студентів</div>
+    </div>
+    <div class="image-box">
+        <img src="study7.jpg" alt="Зображення 7">
+        <div class="text">Фото студентів</div>
+    </div>
+    <div class="image-box">
+        <img src="study8.jpg" alt="Зображення 8">
+        <div class="text">Переможець Всеукраїнської конференції</div>
+    </div>
+    <div class="image-box">
+        <img src="study9.jpg" alt="Зображення 9">
+        <div class="text">Підготовка до сесії 2</div>
+    </div>
+    <div class="image-box">
+        <img src="study10.jpg" alt="Зображення 10">
+        <div class="text">Студенти дивляться фільм на віртуальній дошці</div>
+    </div>
+</div>
+</body>
+</html>
